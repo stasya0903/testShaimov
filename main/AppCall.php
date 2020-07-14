@@ -25,23 +25,6 @@ use App\traits\TSingleton;
  * @package App\main
  * @property IRender render
  * @property DB db
- * @property UserRepository userRepository
- * @property GoodRepository goodRepository
- * @property CRUDService CRUDService
- * @property BasketService  BasketService
- * @property UserService  userService
- * @property OrderService  orderService
- * @property GoodService  goodService
- * @property BasketService basketService
- * @property mixed|null orderRepository
- * @property GoodAuthRepository goodAuthRepository
- * @property UserAuthRepository userAuthRepository
- * @property UserAuthRepository orderAuthRepository
- * @property GoodAdminController goodAdminRepository
- * @property GoodAdminController userAdminRepository
- * @property OrderAdminController orderAdminRepository
- * @property BasketRepository basketRepository
- *
  */
 class AppCall
 {

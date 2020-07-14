@@ -7,8 +7,7 @@ namespace App\entities;
 /**
  * Class Entity
  * @package App\entities
- *
- * @property int $id
+ *@property int $id
  */
 
 abstract class Entity

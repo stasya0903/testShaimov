@@ -20,20 +20,7 @@ class App
     public function run()
     {
         $request = new \App\services\Request();
-        $controllerName = $request->getControllerName() ?: 'good';
-
-        if (!empty($request->session("user"))) {
-          $controllerName = $request->getControllerName() ?: 'userAuth';
-      }
-
-
-        if ($request->session("role") == 1) {
-            $controllerName = $request->getControllerName() ?: 'userAdmin';
-        }
-
-
-
-
+        $controllerName = $request->getControllerName() ?: 'main';
         $actionName = $request->getActionName();
 
         new \Twig\Loader\FilesystemLoader();

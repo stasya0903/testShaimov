@@ -3,3 +3,5 @@ composer.phar
 .idea
 .DS_Store?
 .DS_Store
+.htaccess
+public/.htaccess

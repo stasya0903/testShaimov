@@ -4,7 +4,11 @@
 namespace App\controllers;
 
 
-class MainController
+class MainController extends Controller
 {
+    protected $defaultAction = 'index';
 
+    public function indexAction(){
+       return  $this->render("index");
+    }
 }
